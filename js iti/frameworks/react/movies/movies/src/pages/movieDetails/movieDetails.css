@@ -1,0 +1,10 @@
+.movie-details{
+    flex-direction: row;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.movie__img{
+    width: 50%;
+    margin: 0 auto;
+}
