@@ -1,0 +1,68 @@
+/*=============== HOME */
+.home {
+  /* height: calc(100vh - var(--header-height)); */
+  min-height: 100vh;
+  display: grid;
+}
+.home__container {
+  position: relative;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+  padding: var(--mb-1-5) 0;
+}
+
+.social-link {
+  font-size: var(--h2-font-size);
+  color: var(--text-color-light);
+  transition: 0.3s;
+}
+
+.social-link:hover {
+  color: var(--body-color);
+}
+
+.home__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: var(--mb-1);
+}
+
+.description {
+  margin-bottom: var(--mb-1-5);
+}
+
+.subtitle {
+  margin-bottom: var(--mb-1-5);
+  color: var(--first-color);
+}
+
+.home__price {
+  display: inline-block;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  margin-bottom: var(--mb-3);
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  box-shadow: 0 12px 24px hsla(0, 0%, 10%, 0.2);
+  margin-top: var(--mb-1-5);
+}
+.btn a {
+  color: var(--body-color);
+}
