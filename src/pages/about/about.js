@@ -7,7 +7,7 @@ function About() {
     <section className='about section' id='about'>
       <div className='about__container container'>
         <div className='about__content'>
-          <h3 className='about__subtitle title'>More About me</h3>
+          <h3 className='about__subtitle title'>About me</h3>
           <p className='about__text description'>
             I am <span>Yousef</span>,A self-tought software engineer focusing on
             Front-End web and <span>Love</span> learning new things
