@@ -1,7 +1,7 @@
 .projects {
   display: grid;
   min-height: 100vh;
-  margin: 6rem 0 4rem;
+  margin: 3rem 0 0;
 }
 .projects__container {
   display: flex;
